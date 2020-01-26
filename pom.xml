@@ -419,6 +419,13 @@
                     </plugin>
                 </plugins>
             </build>
+            
+            <distributionManagement>
+   <repository>
+      <id>nexus-mama</id>
+        <url>http://13.233.179.212:8081/repository/mama-jan-snapshot-dummy/</url>
+   </repository>
+</distributionManagement>
             <reporting>
                 <plugins>
                     <plugin>
@@ -495,4 +502,6 @@
             </reporting>
         </profile>
     </profiles>
+    
+    
 </project>
